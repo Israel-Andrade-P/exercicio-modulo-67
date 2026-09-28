@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: names-manager
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:schema.sql
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+server:
+  port: 8085
+    

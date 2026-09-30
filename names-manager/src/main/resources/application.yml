@@ -1,6 +1,10 @@
 spring:
   application:
     name: names-manager
+  datasource:
+    url: jdbc:mysql://localhost:3306/names-app
+    username: zel
+    password: cheese
   sql:
     init:
       mode: always
